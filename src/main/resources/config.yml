@@ -1,0 +1,131 @@
+Prefix: '&6&lLobby &8»'
+
+ServerNames:
+  Lobby1: 'lobby1'
+  Lobby2: 'lobby2'
+  Lobby3: 'lobby3'
+  PremiumLobby: 'premiumlobby'
+
+LobbyServers:
+  Lobby1: true
+  Lobby2: true
+  Lobby3: true
+  PremiumLobby: true
+
+JumpPad:
+  IronPlate: true
+  GoldenPlate: true
+  WoodenPlate: true
+  StonePlate: true
+
+DoubleJump: true
+PremiumChat: true
+
+Messages: 
+  Build:
+    Join: '&7Du hast den &eBau-Modus &abetreten&7.'
+    Leave: '&7Du hast den &eBau-Modus &cverlassen&7.'
+  SetLobby: '&7Du hast die Lobby &agespeichert&7.'
+  SetWarp:
+    Message: '&7Du hast den Warp-Punkt &e%name% &agespeichert&7.'
+    Errors:
+      NoSlot: '&cDu hast keinen gültigen Slot angegeben.'
+      NoItem: '&cDu hältst kein Item in deiner Hand.'
+    
+Items:
+  Navigator: '&6&lNavigator'
+  HidePlayers: '&6&lSpieler verstecken'
+  ShowPlayers: '&6&lSpieler anzeigen'
+  Inventory: '&6&lInventar'
+  GadgetNotSelected: '&cNicht ausgewählt'
+  NotAvailable: '&cNoch nicht verfügbar'
+  LobbySwitch: '&6&lLobbys'
+  Boots:
+    1:
+      DisplayName: '&7Spieler-Schuhe'
+    2:
+      DisplayName: '&cLove-Schuhe'
+    3:
+      DisplayName: '&6Premium-Schuhe'
+    4:
+      DisplayName: '&5YouTuber-Schuhe'
+    5:
+      DisplayName: '&4Team-Schuhe'
+    NoPermission:
+      DisplayName: '&cKeine Berechtigung'
+  Skulls:
+    1:
+      DisplayName: '&bKorzHorz - Developer'
+      SkullOwner: KorzHorz
+    2:
+      DisplayName: '&5KorzHorz'
+      SkullOwner: KorzHorz
+    3:
+      DisplayName: '&cKorzHorz'
+      SkullOwner: KorzHorz
+    4:
+      DisplayName: '&5Gronkh'
+      SkullOwner: Gronkh
+    5:
+      DisplayName: '&5Paluten'
+      SkullOwner: Paluten
+    6:
+      DisplayName: '&5GermanLetsPlay'
+      SkullOwner: GermanLetsPlay
+    7:
+      DisplayName: '&5Zombey'
+      SkullOwner: Zombey
+    8:
+      DisplayName: '&5maudado'
+      SkullOwner: maudado
+    9:
+      DisplayName: '&5rewinside'
+      SkullOwner: rewinside
+    10:
+      DisplayName: '&5izzi'
+      SkullOwner: izzi
+    11:
+      DisplayName: '&5GommeHD'
+      SkullOwner: GommeHD
+    12:
+      DisplayName: '&5SparkOfPhoenix'
+      SkullOwner: SparkOfPhoenix
+    13:
+      DisplayName: '&5Sarazar'
+      SkullOwner: Sarazar
+    14:
+      DisplayName: '&5ungespielt'
+      SkullOwner: ungespielt
+    NoPermission:
+      DisplayName: '&cKeine Berechtigung'
+  
+Inventorys:
+  Navigator:
+    DisplayName: '&6&lNavigator'
+  LobbySwitch:
+    DisplayName: '&6&lLobbys'
+    Lobby1: '&7Lobby 1'
+    Lobby2: '&7Lobby 2'
+    Lobby3: '&7Lobby 3'
+    PremiumLobby: '&6Premium-Lobby'
+    NotEnabled: '&cNicht erreichbar'
+  Inventory:
+    DisplayName: '&6&lInventar'
+    Gadgets: '&6&lGadgets'
+    Boots: '&6&lSchuhe'
+    Skulls:
+      DisplayName: '&6&lKöpfe'
+      SkullOwner: KorzHorz
+  Gadgets:
+    Enderpearl: '&6&lEnderperle'
+    Explosion: '&6&lExplosion'
+    Jetpack: '&6&lJetpack'
+    NoPermission: '&cKeine Berechtigung'
+
+Errors:
+  NoPermission: '&cDu hast keine Berechtigung, diesen Befehl auszuführen.'
+  NoPlayer: '&cDu musst ein Spieler sein, um diesen Befehl auszuführen.'
+  Usage: '&7Verwende: &e%command%'
+  NoLobby: '&cDie Lobby wurde noch nicht gesetzt.'
+  NoPremium: '&7Das ist eine &6Premium-Funktion&7. Um diese nutzen zu können, kaufe dir einen &eRang &7in unserem Shop: &eDeinServer.de'
+  CantReachServer: '&cDieser Server ist momentan nicht erreichbar.'

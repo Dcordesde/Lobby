@@ -1,0 +1,15 @@
+name: Lobby
+version: '${project.version}'
+main: de.korzhorz.lobby.main
+api-version: 1.17
+commands:
+  SetLobby:
+    description: SetLobby
+  Build:
+    description: Build
+  SetLobbyID:
+    description: SetLobbyID
+  SetWarp:
+    description: SetLobbyWarp
+  SetPremiumLobby:
+    description: SetPremiumLobby
