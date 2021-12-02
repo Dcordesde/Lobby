@@ -739,8 +739,18 @@ public class EVT_ItemInteractEvent implements Listener {
 													Boots5Meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 													Boots5Meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
 													Boots5.setItemMeta(Boots5Meta);
-													
+
+													ItemStack Plate5 = new ItemStack(Material.DIAMOND_CHESTPLATE);
+													//Plate5.addEnchantment(Enchantment., 1);
+													ItemMeta Plate5Meta = Plate5.getItemMeta();
+													Plate5Meta.setDisplayName(ChatColor.translateAlternateColorCodes('&', Boots5DisplayName));
+													Plate5Meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+													Plate5Meta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
+													Plate5.setItemMeta(Plate5Meta);
+
+
 													e.getWhoClicked().getInventory().setBoots(Boots5);
+													e.getWhoClicked().getInventory().setChestplate(Plate5);
 													e.getWhoClicked().closeInventory();
 													if(e.getWhoClicked() instanceof Player) {Player p = (Player) e.getWhoClicked(); p.playSound(p.getLocation(), Sound.BLOCK_NOTE_BLOCK_PLING, 1, 1);}
 												}
